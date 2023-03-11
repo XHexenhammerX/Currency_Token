@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Pirat_Coin</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Eco.Core">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Gameplay">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.Gameplay.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.ModKit">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.ModKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Mods">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.Mods.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Networking.ENet">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.Networking.ENet.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Plugins">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Shared">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Simulation">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.Simulation.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Stats">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.Stats.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.WebServer">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.WebServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.World">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.World.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.WorldGenerator">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\Eco.WorldGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="EcoServer">
+      <HintPath>E:\ECO Modding\EcoModKit_v0.9.7.9-beta\ReferenceAssemblies\EcoServer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
