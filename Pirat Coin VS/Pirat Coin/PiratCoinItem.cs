@@ -47,6 +47,7 @@ namespace Eco.PiratCoin
     public partial class PiratCoinItem : WorldObject
     {
         public override LocString DisplayDescription { get { return Localizer.DoStr("Pirat Coin"); } }
+
         public override DirectionAxisFlags RequiresSurfaceOnSides { get; } = 0
                     | DirectionAxisFlags.Down;
         
@@ -57,9 +58,6 @@ namespace Eco.PiratCoin
             new BlockOccupancy(new Vector3i(0, 1, 0)),
             });
         }
-
-
-
 
 
     [Serialized]
